@@ -3,7 +3,7 @@ spring:
     name: demo-chatbot
 
 server:
-  port: 5198
+  port: ${PORT_NUMBER}
 
 langchain4j:
   open-ai:
